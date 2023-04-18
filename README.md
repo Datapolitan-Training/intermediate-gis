@@ -3,7 +3,6 @@ A class in more advanced topics of GIS using [QGIS](http://www.qgis.org/).
 Slides are available [here](http://bit.ly/intermediate-gis).
 
 # Goals
-<!--![img](images/goals_outcomes.jpg)-->
 + Review basic geospatial and cartographic concepts
 + Further develop the ability of students to think spatially
 + Demonstrate and apply methods for processing geospatial data within a GIS
@@ -66,6 +65,4 @@ Slides are available [here](http://bit.ly/intermediate-gis).
 	+ Discuss geocoding of addresses in QGIS
 + Q & A/Evaluations
 + Dismissal
-
-<!--![img](images/outline_2.jpg)-->
 
