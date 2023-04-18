@@ -1,5 +1,7 @@
 A class in more advanced topics of GIS using [QGIS](http://www.qgis.org/). 
 
+Slides are available [here](http://bit.ly/intermediate-gis).
+
 # Goals
 <!--![img](images/goals_outcomes.jpg)-->
 + Review basic geospatial and cartographic concepts
