@@ -226,8 +226,8 @@ class:center,middle
 # Or more simply
 
 > In a GIS, you connect _**data**_ with _**geography**_.
-
-+ [GISgeography.com](http://gisgeography.com/what-gis-geographic-information-systems/)
+>
+> + [GISgeography.com](http://gisgeography.com/what-gis-geographic-information-systems/)
 
 ---
 
@@ -312,26 +312,26 @@ class:center,middle
 
 ---
 
-# Setting Up QuickMapServices Plugin
+# QuickMapServices Plugin
 + Go to the Settings Menu
 ![img-center-80](images/basemap4.png)
 
 ---
 
-# Setting Up QuickMapServices Plugin
+# QuickMapServices Plugin
 + Get the contributed packs
 ![img-center-80](images/basemap5_box.png)
 
 ---
 
-# Setting Up QuickMapServices Plugin
-![img-right-45](images/basemap6_trim.png)
+# QuickMapServices Plugin
+![img-right-43](images/basemap6_trim.png)
 + Revel in all the beautiful base maps
 
 ---
 
-# Select a base map from the list
-![img-center-80](images/p1_basemap.png)
+# Select a base map
+![img-center-85](images/p1_basemap.png)
 
 ---
 
@@ -358,7 +358,7 @@ class:center,middle
 
 ---
 
-# Download a shapefile and import
+# Download a shapefile & import
 1. [Click this link](data/boros/boros.zip) and download the file to your desktop
 2. Unzip the file
 
