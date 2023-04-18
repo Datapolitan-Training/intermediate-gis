@@ -145,7 +145,7 @@ exclude: true
 # Housekeeping
 --
 
-+ We're not explicitly going over some basic operations in the interest of time (pan, zoom, inspect, select, etc.) but cover those in our [intro class](http://www.datapolitan.com/DOT_GIS/20160428_Introduction_to_GIS_Fundamentals/# 1) and will be happy to demo if you have questions
++ We're not explicitly going over some basic operations in the interest of time (pan, zoom, inspect, select, etc.) but cover those in our [intro class](http://bit.ly/intro-gis-fundamentals) and will be happy to demo if you have questions
 --
 
 + The workbooks are for your notes and to take with you
