@@ -282,6 +282,7 @@ class:center,middle
 class:center,middle
 # Let's make a map
 ![img-center-80](images/p1_finished.png)
+
 ---
 
 # Base Maps 
@@ -359,23 +360,31 @@ class:center,middle
 ---
 
 # Download a shapefile & import
+--
+
 1. [Click this link](data/boros/boros.zip) and download the file to your desktop
+--
+
 2. Unzip the file
 
+--
 
 ![img-center-80](images/qgis_nav2.png)
 ---
 
 # Import a shapefile
+--
 
 ![img-center-50](images/qgis_nav3_box.png)
+
+--
 
 ![img-center-55](images/qgis_nav4.png)
 
 ---
 
 # Import a shapefile
-![img-center-80](images/p1_boro_shp.png)
+![img-center-85](images/p1_boro_shp.png)
 
 ---
 
@@ -392,26 +401,36 @@ class:center,middle
 ---
 
 # Import a CSV
+--
+
 + [Right click this link](data/dot_311_20160201_20160207.csv)
+--
+
 + Select "Save link as" 
+--
+
 + Save the file (`dot_311_20160201_20160207.csv`) to your desktop
 
 ---
 
 # Adding CSV Data
-![img-center-70](images/add_csv1.png)
+--
 
-![img-center-90](images/add_csv2_box_crop.png)
+![img-center-75](images/add_csv1.png)
+
+--
+
+![img-center-85](images/add_csv2_box_crop.png)
 
 ---
 
 # Adding CSV Data
-![img](images/p1_csv_box.png)
+![img-center-75](images/p1_csv_box.png)
 
 ---
 
 # Adding CSV Data
-![img](images/add_csv5.png)
+![img-center-70](images/add_csv5.png)
 
 ---
 
@@ -433,18 +452,18 @@ class:center,middle
 
 --
 
-![img-center-85](images/projections-orange.jpg)
-
-[Digital Coast Geozone](https://geozoneblog.wordpress.com/2012/05/22/happy-birthday-mercator/)
+![img-center-70](images/projections-orange.jpg)
+.caption[[Digital Coast Geozone](https://geozoneblog.wordpress.com/2012/05/22/happy-birthday-mercator/)]
 
 ---
 
 # Projections
+
 + Every projection distorts some part of your map
+--
 
-![img-center-50](images/projections-faces.png)
-
-[FlowingData](http://flowingdata.com/2014/01/13/map-projections-illustrated-with-a-face/)
+![img-center-55](images/projections-faces.png)
+.caption[[FlowingData](http://flowingdata.com/2014/01/13/map-projections-illustrated-with-a-face/)]
 
 ---
 
@@ -454,9 +473,10 @@ class:center,middle
 --
 
 + In NYC, we use a more accurate projection **NY State Plane/Long Island Zone**
-![img-right-60](images/projections_NYSplane.png)
+--
 
-###### Source: https://alidade.wikispaces.com/New+York+SPCS+Zones
+![img-center-55](images/projections_NYSplane.png)
+.caption[Source: https://alidade.wikispaces.com/New+York+SPCS+Zones]
 ---
 
 # Projections
@@ -469,7 +489,8 @@ class:center,middle
 + State Plane Long Island is referred to as **EPSG:2263**
 --
 
-## Remember these two and you should be set
+
+## Remember these 2 and you should be set
 
 ---
 
@@ -488,32 +509,45 @@ class:center,middle
 
 ---
 
-# Attribute Table (Right click on layer)
+# Attribute Table
+## Right click on the layer
+--
+
 ![img-left-40](images/qgis_nav6_crop.png)
+
+--
+
 ![img-right-55](images/qgis_nav7.png)
 
 ---
 
-<!-- Styling -->
 # Styling Features
+--
+
 + Right-click the layer and select the Properties option
-+ Select "Style," and finally, choose "Categorized":
+--
+
++ Select "Style," and finally, choose "Categorized"
+
+--
         
-![img-90](images/styling1.png)
+![img-center-75](images/styling1.png)
 
 ---
 
 # Styling Features
-+ Select the column that has the data you want to style:
++ Select the column that has the data you want to style
     
-![img-center-60](images/styling2.png)
+![img-center-55](images/styling2.png)
 
-![img](images/styling3_box.png)
+--
+
+![img-center-70](images/styling3_box.png)
 
 ---
 
 # Styling Features
-![img](images/styling4_box.png)
+![img-center-95](images/styling4_box.png)
 
 ---
 
@@ -523,17 +557,23 @@ class:center,middle
 ---
 
 # Your turn
+--
+
 + Style the points and polygons however you'd like
+--
+
 + Try adding labels to the data
+--
+
 + Get familiar with the interface
 
 ---
 
 class:middle,center
 # 5 Min Break
-![img-center-50](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/s480x480/e35/12277599_1650021651913770_1349530766_n.jpg)
+![img-center-50](images/sadtopographies_what_cheer.jpeg)
 
-### Source: https://www.instagram.com/p/-0QkhTj82O/
+.caption[Source: https://www.instagram.com/p/-0QkhTj82O/]
 ---
 
 class:center,middle
@@ -551,24 +591,15 @@ class:center,middle
 --
 
 > An organized collection of data.
-
-## [Wikipedia](https://en.wikipedia.org/wiki/Database)
+>
+> + [Wikipedia](https://en.wikipedia.org/wiki/Database)
 ---
 
 # What is a database?
 
 > A set of data that has a regular structure and that is organized in such a way that a computer can easily find the desired information.
-
-## [The Linux Information Project](http://www.linfo.org/database.html)
-
----
-
-# What is a database?
-
---
-
-![img-center-90](images/databases.jpg)
-##### Source: http://blog.hackerrank.com/new-domain-tuesday-hackerrank-reveals-data-structure-database-sql-challenges/
+>
+> + [The Linux Information Project](http://www.linfo.org/database.html)
 
 ---
 
@@ -593,16 +624,11 @@ class:center,middle
 --
 
 + Both a storage and analysis tool
---
-
-![img](http://presentations.opengeo.org/2011_IMAK/Workshop_OpenSource_Stack/_images/spatialmojo.png)
-
-#### Source: http://presentations.opengeo.org/2011_IMAK/Workshop_OpenSource_Stack/postgis/spatialdbs.html
 
 ---
 
-# Let's connect to a spatial database
-![img-center-70](images/add_pg_layer1.png)
+# Connect to a spatial database
+![img-center-65](images/add_pg_layer1.png)
 
 --
 
@@ -610,7 +636,7 @@ class:center,middle
 
 ---
 
-# Let's connect to a spatial database
+# Connect to a spatial database
 ![img-right-40](images/add_pg_layer3_box.png)
 + Name: (Whatever you'd like)
 + Host: `training.c1erymiua9dx.us-east-1.rds.amazonaws.com`
@@ -624,7 +650,7 @@ class:center,middle
 
 ---
 
-# Let's connect to a spatial database
+# Connect to a spatial database
 ![img-left-45](images/add_pg_layer5_box.png)
 ![img-right-45](images/add_pg_layer6_box.png)
 #### &nbsp;
@@ -638,7 +664,8 @@ class:center,middle
 
 ---
 
-# Exercise 1 - Selecting Injuries in a Borough
+# Exercise 1 
+## Selecting Injuries in a Borough
 1. Add the `injuries` table to your map
 2. Right click and select "Filter..."
 ![img-right-40](images/filter_pg_layer1.png)
@@ -649,7 +676,7 @@ class:center,middle
 
 ---
 
-# Selecting Injuries in a Borough
+# Selecting Borough Injuries
 ![img-center-60](images/filter_pg_layer3.png)
 
 ---
@@ -723,7 +750,7 @@ class:center,middle
 
 ---
 
-# Drawbacks of using a spatial database
+# Spatial Database Drawbacks
 
 --
 
@@ -742,33 +769,34 @@ class:center,middle
 
 class:center,middle
 # 10 Min Break
-![img-center-50](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/12479567_465385250325330_1226866813_n.jpg)
+![img-center-50](images/sadtopographies_lonelyville.jpeg)
 
-### Source: https://www.instagram.com/p/BAVc4Gzj88v/
+.caption[Source: https://www.instagram.com/p/BAVc4Gzj88v/]
 
 ---
 
-## Exercise 2 - Let's do some data analysis
+# Exercise 2
+## Let's do some data analysis
 --
 
 + Which Community Boards in NYC have the highest number of bicyclist injuries?
 --
 
-![img-center-60](images/nycd_injuries_choropleth.png)
+![img-center-55](images/nycd_injuries_choropleth.png)
 
 ---
 
 # First of all
 + What kind of map is this?
 
-![img-center-60](images/nycd_injuries_choropleth.png)
+![img-center-65](images/nycd_injuries_choropleth.png)
 
 ---
 
 # Choropleth
-![img-center-75](images/choropleth.png)
+![img-center-70](images/choropleth.png)
 
-##### Source: http://www.geogalot.com/myp-humanities/year-9/understanding-hazards/003---choropleth-mapping
+.caption[Source: http://www.geogalot.com/myp-humanities/year-9/understanding-hazards/003---choropleth-mapping]
 
 ---
 
@@ -776,7 +804,7 @@ class:center,middle
 
 ![img-center-100](images/floatingsheep-beer-church.jpg)
 
-##### Source: http://www.floatingsheep.org/2012/07/church-or-beer-americans-on-twitter.html
+.caption[Source: http://www.floatingsheep.org/2012/07/church-or-beer-americans-on-twitter.html]
 
 ---
 
@@ -816,7 +844,7 @@ class:center,middle
 
 class:center,middle
 ![img-center-90](images/referencemap.png)
-##### Source: http://nationalmap.gov/small_scale/printable/reference.html
+.caption[Source: http://nationalmap.gov/small_scale/printable/reference.html]
 
 ---
 
@@ -826,10 +854,14 @@ class:center,middle
 ---
 
 # Load data
+--
+
 + Add the `nyc_cd_4326` table
+--
+
 + Add the `injuries` table
 
-![img-center-60](images/sjoin1_box.png)
+![img-center-75](images/sjoin1_box.png)
 
 ---
 
@@ -893,33 +925,33 @@ class:center,middle
 
 ---
 
-# You are greeted with a blank slate
+# Create a new print composer
 
 ![img-center-100](images/print_comp4.png)
 
 ---
 
-# Add New Map tool will add your current map
+# Add New Map to current map
 ![img-left-20](images/print_comp5_box.png)
 --
-![img-right-70](images/print_comp6.png)
+![img-right-80](images/print_comp6.png)
 
 ---
 
-# Customize item properties on the right
+# Customize item properties
 
 ![img-center-50](images/print_comp7.png)
 
 ---
 
-# Don't forget a title and your sources
+# Add a title and your sources
 
 ![img-left-15](images/print_comp8_box.png)
-![img-right-80](images/print_comp9.png)
+![img-right-85](images/print_comp9.png)
 
 ---
 
-# There are a few exporting options
+# Exporting options
 
 ![img-center-50](images/print_comp10.png)
 
@@ -940,13 +972,15 @@ class:center,middle
 
 ---
 
-# Exercise 3 - Bicyclist Injuries
+# Exercise 3
+## Bicyclist Injuries
+![img-right-40](images/buffer0.png)
+
 + Which community board has the highest number of bicyclist injuries off of bicycle paths?
 
-![img-right-45](images/buffer0.png)
 --
 
-# How do we answer this?
+## How do we answer this?
 <!-- ![img-center-40](images/nycd_bike_injuries_not_bike_route.png) -->
 
 ---
@@ -975,24 +1009,27 @@ class:center,middle
 
 ---
 
-# Step 0: Load the tables we need
-![img-right-55](images/buffer1a.png)
+# Step 0
+## Load the tables we need
+![img-right-60](images/buffer1a.png)
 + `injuries`
 + `bike_routes_2015`
 + `nyc_cd_2263`
 
 ---
 
-# Step 1: Buffer bicyclist injuries
+# Step 1
+## Buffer bicyclist injuries
 
 ![img-center-70](images/buffer1.png)
 
 ---
 
-# Step 1: Buffer bicyclist injuries
+# Step 1
+## Buffer bicyclist injuries
 + Create a 15ft around injury locations
 
-![img-center-60](images/buffer2.png)
+![img-center-50](images/buffer2.png)
 
 ---
 
@@ -1046,8 +1083,10 @@ _Know how big 15 decimal degrees are?_
 +  We want to project the `injuries` layer to EPSG:2263
 --
 
-![img-right-30](images/reproject1.png)
 + Right click the layer and select `Save As...`
+
+![img-right-30](images/reproject1.png)
+
 ---
 
 # Reprojecting Layers
@@ -1070,9 +1109,17 @@ _Know how big 15 decimal degrees are?_
 
 # Buffering features in QGIS
 ![img-right-45](images/buffer6.png)
+--
+
 + Make sure you select your reprojected layer
+--
+
 + Set the distance to 15 (this time it'll be feet)
+--
+
 + Set your output shapefile
+--
+
 + Select `OK`
 
 ---
@@ -1087,8 +1134,9 @@ _Know how big 15 decimal degrees are?_
 
 ---
 
-# Step 2: Select injuries near bike lanes
-![img-center-70](images/buffer8.png)
+# Step 2
+## Select injuries near bike lanes
+![img-center-60](images/buffer8.png)
 
 ---
 
@@ -1102,10 +1150,20 @@ _Know how big 15 decimal degrees are?_
 
 # Select by location in QGIS
 ![img-right-40](images/spatialq3.png)
+--
+
 + Select the buffered injuries layer
+--
+
 + Select `Intersects`
+--
+
 + Select the bike routes layer
+--
+
 + Select `Create new selection`
+--
+
 + Click `Apply`
 
 ---
@@ -1126,7 +1184,8 @@ _Know how big 15 decimal degrees are?_
 --
 
 (Meaning it happened on or near a bike lane)
---
+
+---
 
 
 # Still to do
@@ -1142,38 +1201,44 @@ _Know how big 15 decimal degrees are?_
 
 ---
 
-# Step 3: Find injuries off of bike lanes
+# Step 3
+## Find injuries off of bike lanes
 
 ![img-center-100](images/invert1_box.png)
 
 ---
 
-# Step 3: Find injuries off of bike lanes
+# Step 3
+## Find injuries off of bike lanes
 
 ![img-center-100](images/invert2.png)
 
 ---
 
-# Step 3: Find injuries off of bike lanes
+# Step 3
+## Find injuries off of bike lanes
 
-![img-center-70](images/invert3.png)
+![img-center-60](images/invert3.png)
 
 ---
 
-# Step 3: Find injuries off of bike lanes
-![img-right-50](images/invert4_box.png)
+# Step 3
+## Find injuries off of bike lanes
+![img-right-45](images/invert4_box.png)
 + Create a layer of the selected features
 
 ---
 
-# Step 4: Join result to Community Boards
-![img-right-50](images/join_cd_injury.png)
+# Step 4
+## Join result to Community Boards
+![img-right-45](images/join_cd_injury.png)
 + Join the Community Boards to the bicyclist injuries off of bicycle lanes
 
 ---
 
-# Step 5: Style the result
-![img-center-90](images/nycd_bike_injuries_not_bike_route.png)
+# Step 5
+## Style the result
+![img-center-80](images/nycd_bike_injuries_not_bike_route.png)
 
 ---
 
@@ -1186,7 +1251,7 @@ _Know how big 15 decimal degrees are?_
 
 
 ## Maybe stay in bike lanes?
-![img-right-50](http://dailynexus.com/wp-content/uploads/2014/11/GIF-Bike-accident.gif)
+![img-center-50](images/GIF-Bike-accident.gif)
 
 ---
 
@@ -1228,9 +1293,9 @@ _Know how big 15 decimal degrees are?_
 class:center,middle
 # Lunch
 
-![img-center-50](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/12725068_842510565872382_389593737_n.jpg)
+![img-center-50](images/sadtopographies_what_me_lord.jpeg)
 
-### Source: https://www.instagram.com/p/BB7cKt_D8zv/
+.caption[Source: https://www.instagram.com/p/BB7cKt_D8zv/]
 
 ---
 
@@ -1257,7 +1322,7 @@ class:center,middle
 
 ---
 
-#[ArcGIS](http://www.esri.com/software/arcgis/arcgis-for-desktop)
+# [ArcGIS](http://www.esri.com/software/arcgis/arcgis-for-desktop)
 
 ![img-center-80](images/arcgis.jpg)
 
@@ -1265,22 +1330,16 @@ Source: http://www.esri.com/news/arcuser/1012/a-workflow-for-creating-and-sharin
 
 ---
 
-#[Adobe Illustrator](http://www.adobe.com/products/illustrator.html)/[Mapublisher](http://www.avenza.com/mapublisher)
+# [Adobe Illustrator](http://www.adobe.com/products/illustrator.html)/[Mapublisher](http://www.avenza.com/mapublisher)
 ![img-center-100](images/illustrator.jpg)
 
 Source: http://www.avenza.com/resources/blog/2011/06/28/how-get-open-street-map-data-adobe-illustrator-mapublisher
 
 ---
 
-#[Google Earth](https://www.google.com/earth/)
+# [Google Earth](https://www.google.com/earth/)
 
 ![img-center-80](images/google_earth.png)
-
----
-
-#[Google Fusion Tables](https://sites.google.com/site/fusiontablestalks/stories)
-<iframe width="100%" height="430" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col54%2C+col55+from+1dNtdy7FuBBZ2qTxX7jgZ5Dig8n96oxRrWFjuhYpJ+where+col3+%3E%3D+0+and+col3+%3C%3D+4+and+col26+%3D+2+limit+1000&amp;viz=HEATMAP&amp;h=true&amp;lat=40.844685&amp;lng=-73.915349&amp;t=1&amp;z=12&amp;l=col54&amp;y=2&amp;tmplt=2&amp;hmd=true&amp;hmg=%2366ff0000%2C%2393ff00ff%2C%23c1ff00ff%2C%23eeff00ff%2C%23f4e300ff%2C%23f4e300ff%2C%23f9c600ff%2C%23ffaa00ff%2C%23ff7100ff%2C%23ff3900ff%2C%23ff0000ff&amp;hmo=0.6&amp;hmr=26&amp;hmw=0&amp;hml=TWO_COL_LAT_LNG"></iframe>
-Source: [NYC Open Data 311 Noise Complaints, 1 Jan - 20 May 2014, Between Midnight and 4 am in the Bronx](https://www.google.com/fusiontables/DataSource?docid=1dNtdy7FuBBZ2qTxX7jgZ5Dig8n96oxRrWFjuhYpJ# map:id=3)
 
 ---
 
@@ -1293,7 +1352,7 @@ class:center,middle
 
 ![img-center-80](https://www.apertus.org/sites/default/files/bart_os.gif)
 
-Source: https://www.apertus.org/opensource <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+.caption[Source: https://www.apertus.org/opensource <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.]
 
 ---
 
@@ -1316,7 +1375,7 @@ Source: https://www.apertus.org/opensource <a rel="license" href="http://creativ
 
 --
 
-[![img-center-40](http://michaelminn.net/media/2009/04/2009-04-02_15-07-37_thumbnail.jpg)](http://michaelminn.com/)
+[![img-center-40](https://michaelminn.net/2009-04-02_15-07-37_thumbnail.jpg)](http://michaelminn.com/)
 
 ---
 
@@ -1339,15 +1398,6 @@ Source: https://www.apertus.org/opensource <a rel="license" href="http://creativ
 class:center,middle
 # How does this affect you?
 
----
-
-class:center,middle
-# Another example of open-source mapping software
-
----
-
-#[CartoDB](https://cartodb.com/)
-<iframe width="100%" height="500" frameborder="0" src="https://richard-datapolitan.cartodb.com/viz/84289396-125c-11e6-89ae-0e674067d321/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 ---
 
 class:center,middle
@@ -1421,11 +1471,11 @@ class:center,middle
 
 # Back to databases
 
-![img-center-90](images/databases.jpg)
+![img-center-90](images/databases.jpeg)
 
 ---
 
-![img-center-80](images/paper-stack.jpg)
+![img-center-75](images/paper-stack.jpg)
 
 ---
 
@@ -1613,9 +1663,9 @@ class:center,middle
 
 class:center,middle
 # 5 Min Break
-![img-center-50](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/12394103_911857328929406_745382446_n.jpg)
+![img-center-50](images/sadtopographies_mistaken_island.jpeg)
 
-### Source: https://www.instagram.com/p/_okHsID8xS/
+.caption[Source: https://www.instagram.com/p/_okHsID8xS/]
 
 ---
 
@@ -1746,7 +1796,7 @@ GROUP BY polygons.unique_id
 # `ST_Within`
 
 ![img-center-40](images/st-within.gif)
-##### Source: https://www.ibm.com/support/knowledgecenter/SSGU8G_11.50.0/com.ibm.spatial.doc/relation1033234.htm%23relation1033234
+.caption[[Source](https://www.ibm.com/support/knowledgecenter/SSGU8G_11.50.0/com.ibm.spatial.doc/relation1033234.htm%23relation1033234)]
 
 ---
 
@@ -1782,20 +1832,30 @@ GROUP BY polygons.unique_id
 ---
 
 # Putting it all together
+--
+
 + Filter DOT 311 requests by your borough and for a type
+--
+
 + Join filtered requests to community districts in your borough
+--
+
 + Create a choropleth of the number complaints in each CD
+--
+
 + Hint: Be thinking about the problems we've run into with joining layers
-+ Create a map and [submit your work](https://script.google.com/a/macros/datapolitan.com/s/AKfycbwMcE5pcJwZHdbSCN_2epwaXnRLSRPaLbHCAhxaZJ79UXaRpQ_l/exec)
+--
+
++ Create a map and submit your work
 
 ---
 
 class:center,middle
 # 10 Min Break
 
-![img-center-50](https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e35/10475028_1632667213653494_1437967908_n.jpg)
+![img-center-50](images/sadtopographies_nameless.jpeg)
 
-### Source: https://www.instagram.com/p/9stzddj8-Q/
+.caption[Source: https://www.instagram.com/p/9stzddj8-Q/]
 
 ---
 
@@ -1813,14 +1873,14 @@ class:center,middle
 # Heatmaps
 
 ![img-center-70](images/taxi_heatmap.png)
-#### Source: https://www.mapbox.com/blog/nyc-taxi/
+.caption[Source: https://www.mapbox.com/blog/nyc-taxi/]
 
 ---
 
 # Heatmaps
 
 ![img-center-50](images/citibike_suggestions.png)
-#### Source: http://a841-tfpweb.nyc.gov/bikeshare/2011/09/20/station-suggestion-recap/
+.caption[Source: http://a841-tfpweb.nyc.gov/bikeshare/2011/09/20/station-suggestion-recap/]
 
 ---
 
@@ -1846,7 +1906,7 @@ class:center,middle
 
 # Heatmaps in QGIS
 
-![img-center-50](images/heatmap-dialog.png)
+![img-center-60](images/heatmap-dialog.png)
 
 ---
 
@@ -1873,7 +1933,7 @@ class:center,middle
 + Create a heatmap of complaints in your borough
 
 ---
-
+exclude: true
 class:center,middle
 #[Click to submit your work](https://script.google.com/a/macros/datapolitan.com/s/AKfycbwMcE5pcJwZHdbSCN_2epwaXnRLSRPaLbHCAhxaZJ79UXaRpQ_l/exec)
 
@@ -1903,21 +1963,21 @@ class:center,middle
 
 ---
 
-# Data formats we haven't covered
+# formats we haven't covered
 + JSON (used in online services)
 
 ![img-center-100](images/json.png)
 
 ---
 
-# Data formats we haven't covered
+# formats we haven't covered
 ![img-right-45](images/geojson_rev.png)
 + GeoJSON (used in online services with locations to be mapped)
 + For more information see Eric Brelsford's [GeoJSON and Github tutorial](http://youtu.be/TQs7fYo9d_M)
 
 ---
 
-# Data formats we haven't covered
+# formats we haven't covered
 + XML (Google Earth's native data format)
 
 ![img-center-100](images/xml.png)
@@ -1957,13 +2017,13 @@ class:center,middle
 
 # Geocoding in QGIS
 
-![img-center-70](images/mmqgis.png)
+![img-center-90](images/mmqgis.png)
 
 ---
 
 # Geocoding in QGIS
 
-![img-center-70](images/mmqgis-menu.png)
+![img-center-90](images/mmqgis-menu.png)
 
 ---
 
@@ -2043,14 +2103,14 @@ class:center,middle
 ---
 
 # The PostGIS Documentation
-![img](images/postgis_docs.png)
+![img-center-100](images/postgis_docs.png)
 
 http://postgis.net/documentation
 
 ---
 
 # The PostGIS Documentation
-[![img](images/st_within_docs.png)](http://postgis.net/docs/ST_Within.html)
+[![img-center-100](images/st_within_docs.png)](http://postgis.net/docs/ST_Within.html)
 
 ### They're actually really helpful
 
