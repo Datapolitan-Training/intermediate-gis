@@ -30,7 +30,7 @@ Slides are available [here](http://bit.ly/intermediate-gis).
 	+ When have you used a spatial database?
 	+ What is a spatial database? (like a shared file server)
 	+ A quick and simple introduction to the relational model 
-	+ Sharing data with datbases
+	+ Sharing data with databases
 	+ Introduction to schemas (as relate to datatypes in SHP)
 	+ Performance benefits of databases
 + Practical Exercise 2 (connecting to a database and manipulating data in QGIS)
